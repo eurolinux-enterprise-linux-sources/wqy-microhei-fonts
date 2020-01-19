@@ -5,7 +5,7 @@
 
 Name:           %{fontname}-fonts
 Version:        0.2.0
-Release:        0.11.beta%{?dist}
+Release:        0.12.beta%{?dist}
 Summary:        Compact Chinese fonts derived from Droid
 
 Group:          User Interface/X
@@ -57,6 +57,9 @@ rm -fr %{buildroot}
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.2.0-0.12.beta
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.2.0-0.11.beta
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
